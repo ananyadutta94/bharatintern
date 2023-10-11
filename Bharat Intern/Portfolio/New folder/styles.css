@@ -1,0 +1,91 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the sections */
+section {
+    padding: 50px;
+}
+
+/* Style the portfolio items */
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+.portfolio-item{
+    /* ... */
+
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Maintain aspect ratio */
+    overflow: hidden;
+    border-radius: 50%; /* Creates a circular frame */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.profile-picture img {
+    width: 100%;
+    height: auto;
+}
+/* ... */
+
+body {
+    background-image:url(/—Pngtree—abstract\ playful\ portfolio\ pink\ memphis_1347357.png);
+}
+
+.name{
+    font-weight: bold;
+    font-size:30px;
+    text-align: center;
+}
+/* ... */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.footer-logo img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Maintain aspect ratio */
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: white;
+}
+/* ... */
